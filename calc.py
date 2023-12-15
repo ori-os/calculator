@@ -9,7 +9,8 @@ def subtract(num1, num2):
 
 
 def multiply(num1, num2):
-    pass
+    result = num1 * num2
+    print_result(result, "multiplied")
 
 
 def divide(num1, num2):

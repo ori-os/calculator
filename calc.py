@@ -46,7 +46,7 @@ def get_operator(num1, num2):
     elif operator == '5':
         power(num1, num2)
     else:
-        print("Error - invalid input. Please try again!")
+        print("Error - invalid input. Please try again:")
         get_operator(num1, num2)
 
 

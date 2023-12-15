@@ -1,5 +1,6 @@
 def add(num1, num2):
-    pass
+    result = num1 + num2
+    print_result(result, "added")
 
 
 def subtract(num1, num2):
@@ -16,6 +17,10 @@ def divide(num1, num2):
 
 def power(num1, num2):
     pass
+
+
+def print_result(result, operation):
+    print("Successfully", operation, "the two numbers. Result:", result)
 
 
 def get_operator(num1, num2):

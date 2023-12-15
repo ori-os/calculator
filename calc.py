@@ -4,7 +4,8 @@ def add(num1, num2):
 
 
 def subtract(num1, num2):
-    pass
+    result = num1 - num2
+    print_result(result, "subtracted")
 
 
 def multiply(num1, num2):

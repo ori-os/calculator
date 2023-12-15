@@ -28,7 +28,7 @@ def print_result(result, operation):
 
 
 def get_operator(num1, num2):
-    print("Enter a number to choose the operation:")
+    print("Enter a number matching the desired operation:")
     print("1. Add")
     print("2. Subtract")
     print("3. Multiply")
@@ -52,7 +52,7 @@ def get_operator(num1, num2):
 
 def main():
     num1 = 7
-    num2 = 1
+    num2 = 2
     get_operator(num1, num2)
 
 

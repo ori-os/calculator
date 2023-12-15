@@ -14,7 +14,8 @@ def multiply(num1, num2):
 
 
 def divide(num1, num2):
-    pass
+    result = num1 / num2
+    print_result(result,"divided")
 
 
 def power(num1, num2):

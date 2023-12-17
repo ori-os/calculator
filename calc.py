@@ -15,7 +15,7 @@ def multiply(num1, num2):
 
 def divide(num1, num2):
     result = num1 / num2
-    print_result(result,"divided")
+    print_result(result, "divided")
 
 
 def power(num1, num2):
@@ -51,9 +51,13 @@ def get_operator(num1, num2):
 
 
 def main():
-    num1 = 7
-    num2 = 2
-    get_operator(num1, num2)
+    num1 = input("Enter the first number: ")
+    while not num1.isnumeric():
+        num1 = input("Invalid input. Please enter a number: ")
+    num2 = input("Enter the second number: ")
+    while not num2.isnumeric():
+        num2 = input("Invalid input. Please enter a number: ")
+    get_operator(int(num1), int(num2))
 
 
 if __name__ == '__main__':
